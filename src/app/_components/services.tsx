@@ -1,40 +1,42 @@
 "use client"
 import useEmblaCarousel from "embla-carousel-react"
-import { ChevronLeft, ChevronRight, Scissors, Syringe, CarTaxiFront, Hotel, Clock } from "lucide-react"
+import { ChevronLeft, ChevronRight,  Hotel, Clock, BrushCleaning, Wrench, SplineIcon 
+
+  } from "lucide-react"
 import { WhatsappLogoIcon } from "@phosphor-icons/react"
 
 const services = [
     {
-        title: "banho & tosa",
-        description: "inclui banho com produtos especificos para o tipo de pelagem e pele do animal, e corte de unhas, limpeza das orelhas e tosa personalizada (higienica ou estilizada).",
-        duration: "1H",
-        price: "$50",
-        icon: <Scissors />,
-        linkText: 'olá, vi no site sobre banho e tosa e gostaria de mais informações.'
+        title: "Montagem ",
+        description: "inclui montagem do aparelho, ajustes e a Lubrificação ",
+        duration: "1D",
+        price: "$2.500",
+        icon: <Wrench />,
+        linkText: 'olá, vi no site sobre a Montagenm e gostaria de mais informações.'
     },
     {
-        title: "Consulta Veterinaria",
-        description: "Oferece um atendimento clinico basico ou especializado para cuuidr da saude do seu animal. Inclui diagnostico de doenças, aplicação de vacinas obrigatorias.",
-        duration: "1H",
-        price: "$45",
-        icon: <Syringe />,
-        linkText: 'olá, vi no site sobre Consulta veterinaria e gostaria de mais informações.'
-    },
-    {
-        title: "Taxi Pet",
-        description: "Serviço de transporte para levar e buscar os pets no petshop, clinicas veterinarias ou outros lucais. Ideal para tutores que não tempo ou transporte adequado para locomover os animais.",
+        title: "Manutenção preventiva e lubrificação ",
+        description: "Feito toda a limpeza dos equipamentos (Bateria - Peso Livre - esteiras - spinning) . logo após a Limpeza os aparelhos são lubrificados e ajustados .",
         duration: "2H",
-        price: "$80",
-        icon: <CarTaxiFront />,
-        linkText: 'olá, vi no site sobre Taxi pet e gostaria de mais informações.'
+        price: "$400",
+        icon: <BrushCleaning />,
+        linkText: 'olá, vi no site sobre Manutenção preventiva e lubrificação e gostaria de mais informações.'
     },
     {
-        title: "Hotel para pets",
-        description: "Serviços de hospedagem para animais de estimação, ideal para qundo os tutores precisam viajar ou se ausentar por alguns dias. Os pets ficam acomodados em espaços seguros, confortaveis.",
-        duration: "1H",
-        price: "$60",
-        icon: <Hotel />,
-        linkText: 'olá, vi no site sobre Hotel para pets e gostaria de mais informações.'
+        title: "Desmontagem",
+        description: "Inclui a desmontagem do aparelho seja ela 100% ou parcial.",
+        duration: "1D",
+        price: "$2.500",
+        icon: <Wrench />,
+        linkText: 'olá, vi no site sobre a desmontagem e gostaria de mais informações.'
+    },
+    {
+        title: "Eletronicos",
+        description: "Concertos e reparos de eletronicos (placas, inversores etc...).",
+        duration: "2H",
+        price: "$450",
+        icon: <SplineIcon />,
+        linkText: 'olá, vi no site sobre reparos eletronicos e gostaria de mais informações.'
     },
 ]
 
@@ -75,7 +77,7 @@ export function Services() {
                         <div className="flex">
                             {services.map((item, index) => (
                                 <div key={index} className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3">
-                                    <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
+                                    <article className="bg-[#000274] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                                         <div className="flex-1 flex items-start justify-between">
                                             <div className="flex gap-4">
                                                 <span className="text-3xl">{item.icon}</span>
@@ -96,7 +98,7 @@ export function Services() {
                                             <a
                                                 href={`https://wa.me/5548996469106?text=olá vim pelo site e gostaria de mais informações sobre ${item.title}`}
                                                 target="_blank"
-                                                className="flex justify-center items-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300  "
+                                                className="flex justify-center items-center gap-2 hover:bg-orange-500 px-4 py-1 rounded-md duration-300  "
                                             >
                                                 <WhatsappLogoIcon className="w-4 h-4" />
                                                 Entrar em contato

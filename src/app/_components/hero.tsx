@@ -1,14 +1,14 @@
 import { WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr"
-import dogImg from '../../../public/bg-hero.png'
+import nascimentofit from '../../../public/brand nasicmento fit.png'
 import Image from "next/image"
 import catImg from "../../../public/cat-hero.png"
 export function Hero(){
     return(
-        <section className="bg-[#E84c3D] text-white relative overflow-hidden">
+        <section className="bg-[#000274] text-white relative overflow-hidden">
                                 <div>
                         <Image
 
-                          src={dogImg}
+                          src={nascimentofit}
                           alt="foto do cachorro"
                           fill
                           sizes="100vw"
@@ -24,13 +24,13 @@ export function Hero(){
                 <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
                     <div className="space-y-6">
                         <h1  className="text-3xl font-bold md:text-4xl lg:font-bold leading-10">
-                            Seu pet merece cuidado, carinho e atenção especial.
+                            Sua academia merece um cuidado especial!
                         </h1>
                         <p className="lg:text-lg">
-                            Oferecemos os melhores serviços para garantir o bem-estar e a felicidade do seu amigo de quatro patas.
+                            Oferecemos os melhores serviços para garantir o funcionamento da sua academia.
                         </p>
                         <div>
-                            <a href={`https://wa.me/5548996469106?text=olá vim pelo site e gostaria de mais informações`} 
+                            <a href={`https://wa.me/+554896469106?text=olá vim pelo site e gostaria de mais informações`} 
                             target="_blank"
                             className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                             >
@@ -41,25 +41,21 @@ export function Hero(){
                         <div className="mt-8">
                             <p className="text-sm mb-4">
                                 <b className="bg-black text-white px-2 py-1 mr-1 rounded-md">%5 </b>
-                                de desconto na primeira compra.
+                                de desconto na primeiro atendimento!
                             </p>
                             <div className="flex mt-4">
                                 <div className="w-32 hidden lg:block">
-                                    <Image
-
-                                      src={catImg}
-                                      alt="foto do gato"
-                                      quality={100}
-                                      className="object-fill"
                                     
-                                    />
+
+                                    
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="hidden md:block h-full relative">
                         <Image
-                          src={dogImg}
+                          src={nascimentofit}
                           alt="foto do dog"
                           className="object-contain"
                           fill
