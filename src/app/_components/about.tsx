@@ -33,7 +33,8 @@ export function About() {
                         </div>
                     </div>
                     <div className='space-y-6 mt-10'>
-                        <h2 className='text-4xl font-bold '>SOBRE</h2>
+                        <h2 className='text-4xl font-bold text-blue-900'>Nascimento Fitness a manutenção que move seu negocio!</h2>
+                        <h2 className='text-3xl font-bold pt-5 '>SOBRE</h2>
                         <p>A NascimentoFitness é especializada em montagem e manutenção de equipamentos fitness das marcas Impulse, Total Health, Kikos e Matrix. Atuamos com profissionalismo e agilidade, oferecendo soluções completas para academias, condomínios e empresas que buscam segurança e máxima performance em seus aparelhos. Realizamos instalação, manutenção preventiva e corretiva, garantindo o funcionamento ideal dos equipamentos e a satisfação dos seus clientes. Confie na NascimentoFitness para manter sua estrutura sempre pronta para o treino.
 
                             </p>

@@ -54,17 +54,17 @@ export function Footer() {
                     </div>
                     <div>
                         <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
-                        <p>Email: Email@teste.com</p>
+                        <p>Email: Nascimentofitness64@gmail.com</p>
                         <p>Telefone: (48) 9646-9106</p>
-                        <p>centro, Florianopolis | SC </p>
+                        <p>Atendemos: SC | RS | PR | SP   </p>
 
                     </div>
-                    <div>
+                    <div >
                         <h3 className="text-2xl font-semibold mb-2">Redes sociais</h3>
-                        <div className="flex gap-4">
-                            <a href="#" target="_blank"><FacebookLogoIcon className="w-8 h-8" /></a>
-                            <a href="#" target="_blank"><InstagramLogoIcon className="w-8 h-8" /></a>
-                            <a href="#" target="_blank"><YoutubeLogoIcon className="w-8 h-8" /></a>
+                        <div className="flex  gap-4">
+                            
+                            <a href="https://www.instagram.com/nascimento_fitnesss/" target="_blank"><InstagramLogoIcon className="w-8 h-8" /></a>
+                            
 
                         </div>
 

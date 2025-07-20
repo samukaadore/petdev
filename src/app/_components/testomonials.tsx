@@ -50,7 +50,7 @@ const testomonials = [
         image: supinodeclinadomontado
     },
     {
-        author: "abdutor ",
+        author: "Abdutor ",
         role: "abdutor finalizado",
         image: abdutor
     },
